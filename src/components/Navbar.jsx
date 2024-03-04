@@ -6,7 +6,7 @@ import './Navbar.css'
 
 const Navbar = () => {
     return (
-        <div style={{display:'flex', justifyContent:'center',  gap:40, fontSize:9}}>
+        <div style={{display:'flex', justifyContent:'center',  gap:40, fontSize:9 }}>
         <Link to='/'>
             <div className='navbar'>
                 <FaCoins className='icon' />

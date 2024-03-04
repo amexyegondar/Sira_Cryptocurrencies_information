@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import { Routes, Route } from 'react-router-dom'
 import Coins from './components/Coins'
+import Logosira from './components/Logosira'
 import Coin from './routes/Coin'
 import Navbar from './components/Navbar'
 import TradingViewWidget from './routes/TradingView'
@@ -26,6 +27,7 @@ function App() {
   return (
     <>
       <Navbar />
+      <Logosira/>
       <Routes>
         <Route path='/' element={<Coins coins={coins} />} />
         <Route path='/coin' element={<Coin />}>

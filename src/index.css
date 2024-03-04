@@ -7,6 +7,7 @@
 }
 
 body {
+
   margin: 0;
   font-family: 'Rubik', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -14,7 +15,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background-color: #101838;
+  background-image: url('./asset/bgimage.jpg');
   color: #f4f4f4;
 }
 

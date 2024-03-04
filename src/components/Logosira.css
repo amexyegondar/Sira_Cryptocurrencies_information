@@ -1,0 +1,17 @@
+
+.logo{
+   border-radius: 100%;
+   height: 100px;
+   width: 100px;
+   margin-left: 20px; 
+   margin-top: 10px;
+   cursor: pointer;
+   position: fixed;
+   z-index: 2;
+   
+}
+
+.logocontainer{
+   margin-top: 10px;
+   position: absolute;
+}
